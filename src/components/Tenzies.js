@@ -6,7 +6,10 @@ export default function Tenzies() {
     function newDice(){
       const DiceArr = []
       for (let i = 0; i < 10; i++) {
-        DiceArr.push(Math.floor(Math.random() * 6) + 1)
+        DiceArr.push({ 
+          value : Math.floor(Math.random() * 6) + 1 ,
+          ishold : false
+        })
       }
       return DiceArr
     }
@@ -15,7 +18,7 @@ export default function Tenzies() {
         setDice(newDice())
     }
 
-    let diceNumber = dice.map(dice => <p>{dice}</p>)
+    let diceNumber = dice.map(dice => <p>{dice.value}</p>)
   return (
     <div className='flex'>
         <div>
