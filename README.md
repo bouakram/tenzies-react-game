@@ -1,3 +1,9 @@
+# tenzie game 
+
+i made this game with react.js play [demo](https://62d2ed490422272a82aa83cd--startling-profiterole-f49330.netlify.app/)
+
+![image](https://user-images.githubusercontent.com/75098963/179364781-b39b0f83-bf6e-444d-92e7-0d1b216950a0.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
